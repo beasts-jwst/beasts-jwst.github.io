@@ -4687,3 +4687,214 @@ input, select, textarea {
 		}
 
 	}
+
+	
+	a {
+		color: #3498db;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+
+	header#header h1 {
+		margin: 0;
+		font-size: 2.5em;
+	}
+	
+	header#header p {
+		margin: 0;
+		font-size: 1.2em;
+	}
+	
+	section.wrapper {
+		padding: 4em 0;
+	}
+	
+	section.wrapper .inner {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	header.major {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	
+	header.major h2 {
+		font-size: 2em;
+	}
+	
+	header.major p {
+		font-size: 1.2em;
+	}
+	
+	.content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.left-align-list {
+		padding-left: 0;
+		margin-left: 0;
+		list-style-position: inside;
+	}
+	
+	.image.fit {
+		flex: 1;
+		margin-right: 2em;
+	}
+	
+	.image.fit img {
+		max-width: 100%;
+		border-radius: 10px;
+	}
+	
+	.text {
+		flex: 1;
+	}
+	
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.gallery .row {
+		display: flex;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	
+	.gallery .col-3 {
+		flex: 1;
+		max-width: 23%;
+		text-align: center;
+		margin: 0.5em;
+	}
+	
+	.gallery .col-3 img {
+		max-width: 100%;
+		border-radius: 10px;
+	}
+	
+	footer#footer {
+		background: #333;
+		color: #fff;
+		text-align: center;
+		padding: 1em;
+	}
+	
+	footer#footer .icons {
+		list-style: none;
+		padding: 0;
+	}
+	
+	footer#footer .icons li {
+		display: inline;
+		margin: 0 0.5em;
+	}
+	
+	footer#footer .icons li a {
+		color: #fff;
+		font-size: 1.5em;
+	}
+	
+	#team-list .row {
+		display: flex;
+	}
+	
+	#team-list .col-6 {
+		flex: 1;
+		max-width: 50%;
+		padding: 0 1em;
+	}
+	
+	#team-list .col-6 ul {
+		list-style: none;
+		padding: 0;
+	}
+	
+	#team-list .col-6 ul li {
+		padding: 0.5em 0;
+	}
+
+
+/* Section styles */
+.wrapper {
+    padding: 4em 0;
+}
+
+.wrapper .inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header.major {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header.major h2 {
+    font-size: 2em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section .image {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.section .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.section .text {
+    flex: 2;
+}
+
+.section .text h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.section .text p {
+    font-size: 1em;
+}
+
+.blogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.blogo {
+    flex: 1;
+    margin: 1em;
+    text-align: center;
+}
+
+.blogo img {
+    height: 80px; /* Set the fixed height */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it does not exceed the container width */
+    display: block;
+    margin: 0 auto;
+}
