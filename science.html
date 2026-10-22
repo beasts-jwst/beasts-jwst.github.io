@@ -27,7 +27,6 @@
 						<ul class="links">
 							<li><a href="overview.html">Overview</a></li>
 							<li class="active"><a href="science.html">Science</a></li>
-							<li><a href="first-look.html">First look</a></li>
 							<li><a href="data-releases.html">Data releases</a></li>
 							<li><a href="publications.html">Publications</a></li>
 							<li><a href="team.html">Team</a></li>
@@ -41,32 +40,68 @@
 				<!-- Main -->
 					<div id="main">
 
-						<section id="main-sections" class="wrapper">
+						<!-- Motivation -->
+						<section id="why" class="wrapper">
 							<div class="inner">
 								<header class="major">
 									<h2>Science</h2>
 								</header>
 								<div class="content">
 									<div class="section">
-										<div class="text">
-											<h3>The brightest galaxies at cosmic dawn</h3>
-											<p>JWST's deep fields are too small to contain the rarest, most luminous early galaxies. BEASTS follows up the brightest z &asymp; 9 candidates from the degree-scale COSMOS field to test the bright end of the UV luminosity function.</p>
+										<div class="image">
+											<img src="assets/images/reionization_map.jpg" alt="Simulated map of the redshift of reionization with the COSMOS and JADES footprints" />
+											<p class="caption">A 25&nbsp;deg<sup>2</sup> simulation of reionization, colored by the redshift at which each region is ionized, with the COSMOS and JADES footprints marked. Adapted from Trac, Cen &amp; Loeb (2008) for our Cycle 1 proposal.</p>
 										</div>
-									</div>
-									<div class="section">
 										<div class="text">
-											<h3>Resolving the beasts</h3>
-											<p>The IFU takes a spectrum at every position, so we can separate each system into its components and study them one by one.</p>
-										</div>
-									</div>
-									<div class="section">
-										<div class="text">
-											<h3>Early career researchers</h3>
-											<p>Graduate students lead the data reduction and key analyses, and we will release our data and tools to the community.</p>
+											<h3>Why the brightest galaxies?</h3>
+											<p>How many luminous galaxies existed at cosmic dawn is a test of both galaxy formation and cosmology. The bright end of the UV luminosity function is set by how efficiently the first galaxies turned gas into stars, by feedback, and by dust. The abundance of the most luminous systems tests how quickly massive dark matter halos can assemble in &Lambda;CDM, and these galaxies mark the densest regions of the early Universe, where reionization likely began.</p>
+											<p>Such galaxies are rare even on degree scales, so JWST's deep fields all but miss them. BEASTS instead follows up the brightest z &asymp; 9 candidates from the 2&nbsp;deg<sup>2</sup> COSMOS field.</p>
 										</div>
 									</div>
 								</div>
 							</div>
+						</section>
+
+						<!-- First results -->
+						<section id="first-look" class="wrapper">
+							<div class="inner">
+								<header class="major">
+									<h2>First results</h2>
+									<p>Preliminary measurements. Full results will appear in our papers.</p>
+								</header>
+
+								<div class="table-wrapper">
+									<table class="targets">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>COSMOS2020 ID</th>
+												<th>Other name</th>
+												<th>z<sub>spec</sub></th>
+												<th>Components</th>
+												<th>M<sub>UV</sub></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr><td>BEASTS-1</td><td>852845</td><td>&ndash;</td><td>7.17</td><td>2</td><td>&minus;20.8</td></tr>
+											<tr><td>BEASTS-2</td><td>978062</td><td>REBELS-18</td><td>7.68</td><td>3</td><td>&minus;22.3</td></tr>
+											<tr><td>BEASTS-3</td><td>564423</td><td>REBELS-24</td><td>8.21</td><td>2</td><td>&minus;21.5</td></tr>
+											<tr><td>&ndash;</td><td>441697</td><td>&ndash;</td><td>1.74</td><td>1</td><td>&ndash;</td></tr>
+											<tr><td>&ndash;</td><td>1356755</td><td>&ndash;</td><td>2.83</td><td>1</td><td>&ndash;</td></tr>
+										</tbody>
+									</table>
+								</div>
+								<p>Two of the five candidates turned out to be lower-redshift interlopers, which is why the bright end needs spectroscopy.</p>
+
+								<div class="figure">
+									<a href="assets/images/firstlook/atlas.png"><img src="assets/images/firstlook/atlas.png" alt="NIRSpec IFU images and PRISM spectra of BEASTS-1, BEASTS-2 and BEASTS-3" /></a>
+									<p class="caption">BEASTS-1, 2 and 3: IFU color images and component outlines, with the PRISM spectrum of each component.</p>
+								</div>
+
+								<div class="figure">
+									<a href="assets/images/firstlook/extraction_beasts3.png"><img src="assets/images/firstlook/extraction_beasts3.png" alt="Extraction of BEASTS-3 into components A and B" /></a>
+									<p class="caption">Separating BEASTS-3 into its two components by fitting light profiles to every wavelength channel of the cube.</p>
+								</div>							</div>
 						</section>
 
 						<!-- Euclid x JWST -->
@@ -80,7 +115,7 @@
 										<h3>GO 11286: The Euclid&ndash;JWST Synergy</h3>
 										<p><em>Revealing the Nature of Extremely Luminous z~9 Galaxies</em> (JWST Cycle 5). PI Natalie Allen (Niels Bohr Institute), co-PIs Pascal Oesch (Geneva) and John Weaver (MIT).</p>
 									</div>
-									<p>Euclid's 10 deg<sup>2</sup> Deep Field North is five times the size of COSMOS. GO 11286 will take NIRSpec IFU PRISM spectra of seven of the most luminous z &asymp; 9 candidates found there, up to two magnitudes brighter than any in JWST's deep fields. Stay tuned.</p>
+									<p>Euclid's 10&nbsp;deg<sup>2</sup> Deep Field North is five times the size of COSMOS. GO 11286 will take NIRSpec IFU PRISM spectra of seven of the most luminous z &asymp; 9 candidates found there, up to two magnitudes brighter than any in JWST's deep fields, pushing the test of the bright end to rarer galaxies still. Stay tuned.</p>
 								</div>
 							</div>
 						</section>
